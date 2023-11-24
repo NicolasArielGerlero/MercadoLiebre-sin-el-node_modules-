@@ -1,0 +1,618 @@
+/* Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a; */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+     font-family: 'Roboto'; 
+}
+
+body{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.encabezado{
+    background-color: #EAC926;
+    padding-bottom: 6%;
+}
+
+.linea{
+    display: inline;
+}
+
+.imagenes-productos{
+    width:100%;
+    display: block;
+
+}
+
+
+.descripciones{
+   font-size:16px;
+}
+
+.contenedor-bars{
+    text-align: center;
+    font-size: 1.3rem; 
+    background-color: #1259c3;
+    width: 12%;
+    color: white;
+    border-radius: 8%; 
+    padding-top:2%;
+    padding-bottom:2%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.menu-navegador{
+    display: none;
+}
+
+
+main{
+    background-color: #ebebeb; 
+    padding-bottom: 1%;
+}
+
+ main section{
+    width: 95%;
+    margin: auto;
+} 
+
+footer{
+    background-color: white;
+    margin-top: 5%;
+    
+}
+
+footer p{
+    font-size: 12px;
+}
+
+.section-targeta, .section-regalo, .section-seguridad{
+    text-align: center;
+}
+
+.fa-credit-card, .fa-gift, .fa-user-shield{
+    color: #1259c3;
+    transition: color 0.7s;
+}
+
+.fa-credit-card:hover, .fa-gift:hover, .fa-user-shield:hover{
+    color:#39b54a;
+}
+
+.descripcion-footer{
+    max-width:75%;
+    margin: auto;
+}
+
+.iconos-footer{
+    margin-top: 11%;
+    margin-bottom: 2%;
+    font-size: 2em;
+}
+
+.Copyright{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.Banner{
+    display: flex;
+
+}
+
+.img-banner{
+    width: 100%;
+}
+
+main section article{
+    margin: 10px;
+}
+
+.descripcion-producto{
+    border-top: 1px solid #ebebeb;;
+    background-color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.div-logo-camion{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+} 
+
+.fa-truck{
+     color: #39b54a;
+     transition: rotate, 1s; 
+}
+
+.fa-truck:hover{
+    transform: rotate(-90deg);
+}
+
+
+.descripciones{
+    margin-top: 5%;
+    color: #666;
+    display: none;
+}
+
+.precio-descuento{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;    
+}
+
+.precio{
+    font-size:18px;
+    width: 30%;
+}
+
+.descuentos{
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+}
+
+main section header{
+    display: block;
+    width: 100%;
+    padding-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin: center;
+    text-align: left;
+    margin-left: 2.5%;
+ }
+ 
+.titulares-section{
+    font-size:24px;
+    color: #666;
+}
+
+
+.main-header-top-bar{
+    padding-top: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+
+.contenedor-logo{
+    width: 45%;
+}
+
+.elementos-busqueda{
+    display: flex;
+    width: 50%;
+    margin-left: 5%;
+    position: relative;
+}
+
+.titulo-cuotas{
+    padding-top: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-cuotas p{
+    width: 100%;
+}
+
+.barra-busqueda{
+    border: solid #ffffff 0.5px;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+    padding: 4%;
+    background-color: #ffffff;
+    font-size: 12px;
+    /* margin-right: 5%; */
+}
+
+
+.contenedor-magnifying-glass{
+    display: block;
+    text-align: center;
+    Background-color: #ffffff;
+    align-self: center;
+    width: 18px;
+    position: absolute;
+    right: 4%;
+
+    /* right: 11px; */
+    padding-left: 1%;
+    color: #666;
+}
+
+
+/*Relacionado al register*/
+.input-textos input{
+    background-color: white;
+    color: #666;
+    border-radius: 5px 5px 5px 5px;
+    width: 93%;
+    margin: auto;
+    display: block;
+    margin-bottom: 3%;
+    padding: 1.5%;
+    font-size: 12px;
+    margin-top: 3%;
+}
+ 
+.titulo-register{
+    margin-left: 2.5%;
+    padding-top:2.5%;
+} 
+
+.register-check-texto{
+    margin-left: 4%;
+    margin-top: 2.5%;
+}
+
+.register-carga-de-archivo{
+    margin-left: 4%;
+    margin-top: 2.5%;
+}
+
+.contenedor-botones-register{
+    margin-left: 4%;
+    margin-top: 2.5%;
+    margin-bottom: 3%;
+
+}
+
+.contenedor-botones-register button{
+    background-color: #1259c3;
+    border: solid black 1px;
+    color: white;
+    padding: 1.5%;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+
+.contenedor-botones-register button:hover{
+    background-color: #0022AA;
+}
+
+
+
+/*Relacionado al login*/
+.contenedor-botones-login{
+    margin-left: 4%;
+    margin-top: 2.5%;
+    padding-bottom: 5%;
+    width: 93%;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.contenedor-botones-login button{
+    background-color: #1259c3;
+    border: solid black 1px;
+    color: white;
+    padding: 1.5%;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.5s;
+}
+
+.contenedor-botones-login button:hover{
+    background-color: #0022AA;
+}
+
+
+
+/* Navegacion en tablets */
+ @media(min-width:361px){
+    .descripciones{
+        display:inline-block;
+        opacity: 0;
+        transition: opacity, 0.1s;
+    }
+    .descripciones:hover{
+        opacity: 1;
+    }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(255, 255, 255);
+        transition: box-shadow, 0.5s;
+    }
+
+    main section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .contenedor-bars{
+        display: none;
+    }
+
+    main section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main section article{
+        width: 44%;
+    }
+    
+    .precio-descuento{
+        display: block;
+        flex-wrap: nowrap;
+        align-items: center;    
+    }
+
+    .precio{
+        display: inline;
+         width: 30%; 
+    }
+
+    .descuentos{
+        display: inline;
+         width: 100%; 
+    }
+
+    .contenedor-logo{
+        width: 20%;
+    }
+    
+    .elementos-busqueda{
+        display: flex;
+        width: 43%;
+        margin-left: 2%; 
+        position: relative;
+        margin: inherit;
+    }
+
+    .barra-busqueda{
+        margin-left: 2%;
+        padding: 2.5%;
+    }
+
+    .titulo-cuotas{
+        padding-top: 0%;
+        width: 37%;
+        padding-left: 1%;
+        /* text-align: right; */
+    }
+
+    .main-header-top-bar{
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center; 
+    }
+
+    .menu-navegador{
+        display: block;
+    }
+    
+
+    .menu-navegador{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu-derecha{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        justify-content: flex-start;
+        margin-top: 3%;
+        margin-left: 4%;
+    }
+
+    .menu-derecha li{
+        margin-left: 3%;
+    }
+
+    .menu-izquierda{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        justify-content: flex-end;
+        margin-top: 3%;
+        margin-right: 4%;
+    }
+
+    .menu-izquierda li{
+        margin-right: 3%;
+    }
+    
+    .encabezado{
+        padding-bottom: 2%;
+    }
+
+}
+
+
+/* Navegacion en notebooks */
+@media(min-width:769px){
+    main section article{
+        width: 22%;
+    }
+
+    .main-header-top-bar{
+        padding-top: 3%;
+    }
+
+    .encabezado{
+        padding-bottom: 1.5%;
+    }
+
+    .titulo-cuotas{
+        width: 37%;
+    }
+
+    .elementos-busqueda{
+        width: 43%;
+    }
+
+    .barra-busqueda{
+        padding: 1.5%;
+    }
+
+    .menu-navegador{
+        margin-right: 3%;
+
+    }
+
+    .titulo-register{
+        margin-left: 25%;
+        padding-top: 1.2%;
+    }
+
+    .input-textos input{
+         padding: 0.8%; 
+         margin-bottom: 0.5%;
+         margin-top: 0.5%;
+         width: 50%;
+    }
+
+    .register-check-texto input{
+        margin-left: 25%;
+    }
+
+    .register-check-texto {
+         margin-left: 1%;
+         margin-top: 1%;
+    }
+
+    .checkbox-register{
+        margin-left: 25%;
+    }
+
+    .register-carga-de-archivo{
+        margin-left: 25%;
+        margin-top: 1%;
+    }
+
+    .contenedor-botones-register{
+        display: flex;
+        margin-left: 25%;
+        margin-top: 1%;
+    }
+
+    .contenedor-botones-register button{
+        width: 12%;
+        text-align: center;
+        padding: 0.7%;
+        margin-left: 0.5%;
+        max-width: 80px;
+    }
+
+    .contenedor-botones-login{
+        width: 7.5%;
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .contenedor-sections-footer{
+        display: flex;
+
+    }
+    
+
+
+}
+
+/* Navegacion en desktops */
+@media(min-width:1440px){
+    *{
+        font-size: 1.02rem;
+    }
+
+
+    footer p{
+        font-size: 14px;
+    }
+    
+    .encabezado{
+        padding-bottom: 1%;
+    }
+
+    .main-header-top-bar{
+        padding-top: 2%;
+    }
+
+    .fa-user-shield, .fa-credit-card, .fa-gift{
+        font-size:2.5rem;
+    }
+
+    .contenedor-logo{
+        width: 23%;
+    }
+
+    .elementos-busqueda{
+        width: 45%;
+    }
+
+    .titulo-cuotas{
+        width: 30%;
+    }
+
+    .contenedor-botones-register button{
+        width: 12%;
+        text-align: center;
+        padding: 0.3%;
+        margin-left: 0.5%;
+        max-width: 100px;
+    }
+
+    .contenedor-botones-login{
+        width: 100%;
+    }
+
+    .contenedor-botones-login button{
+        width: 12%;
+        text-align: center;
+        padding: 0.3%;
+        margin-left: 0.5%;
+        max-width: 100px;
+    }
+
+    input[type="text"]
+    {
+        font-size:16px;
+    }
+
+    .menu-derecha, .menu-izquierda{
+        margin-top: 2%;
+    }
+}
