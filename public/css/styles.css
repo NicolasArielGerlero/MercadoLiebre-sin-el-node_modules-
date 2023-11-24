@@ -152,16 +152,12 @@ main section article{
      transition: rotate, 1s; 
 }
 
-.fa-truck:hover{
+.producto:hover .fa-truck{
     transform: rotate(-90deg);
 }
 
 
-.descripciones{
-    margin-top: 5%;
-    color: #666;
-    display: none;
-}
+
 
 .precio-descuento{
     display: flex;
@@ -331,17 +327,23 @@ main section header{
     background-color: #0022AA;
 }
 
-
+.descripciones{
+    position: relative;
+    margin-top: 5%;
+    color: #666;
+    display: none; 
+}
 
 /* Navegacion en tablets */
  @media(min-width:361px){
     .descripciones{
-        display:inline-block;
-        opacity: 0;
-        transition: opacity, 0.1s;
+        /* display:inline-block; */
+        /* opacity: 0;
+        transition: opacity, 0.1s; */
     }
-    .descripciones:hover{
-        opacity: 1;
+    .producto:hover .descripciones{
+        /* position: relative; */
+        display:inline-block;
     }
 
     main section article{
@@ -361,6 +363,7 @@ main section header{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: flex-start;
     }
 
     main section article{
