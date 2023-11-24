@@ -615,6 +615,22 @@ main section header{
         font-size:16px;
     }
 
+    input[type="password"]
+    {
+        font-size:16px;
+    }
+
+    input[type="email"]
+    {
+        font-size:16px;
+    }
+
+    input[type="date"]
+    {
+        font-size:16px;
+    }
+
+
     .menu-derecha, .menu-izquierda{
         margin-top: 2%;
     }
